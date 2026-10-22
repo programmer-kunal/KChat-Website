@@ -20,19 +20,20 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://kchat.app"),
   title: {
-    default: `${siteConfig.name} — ${siteConfig.tagline}`,
+    default: "K Chat: Make Messaging Smarter",
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [
-    "KChat",
+    "K Chat",
+    "Make Messaging Smarter",
     "AI Chat App",
     "Real-Time Messaging",
     "Smart Reply",
     "Thread Summary",
     "Context Search",
     "Scam Guard",
-    "KChat Extension",
+    "K Chat Extension",
     "Android Chat",
     "Privacy Conscious AI",
   ],
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     apple: "/logo.png",
   },
   openGraph: {
-    title: `${siteConfig.name} — ${siteConfig.tagline}`,
+    title: "K Chat: Make Messaging Smarter",
     description: siteConfig.description,
     url: "https://kchat.app",
     siteName: siteConfig.name,
@@ -63,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} — ${siteConfig.tagline}`,
+    title: "K Chat: Make Messaging Smarter",
     description: siteConfig.description,
     images: ["/images/KChatLogo.png"],
   },

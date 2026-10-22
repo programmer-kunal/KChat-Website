@@ -22,12 +22,12 @@ export default function AccountDeletionPage() {
   const [submitted, setSubmitted] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const mailtoSubject = "KChat Account Deletion Request";
-  const mailtoBody = `Hello KChat Support,
+  const mailtoSubject = "K Chat Account Deletion Request";
+  const mailtoBody = `Hello K Chat Support,
 
-I am requesting the permanent deletion of my KChat account and associated personal data.
+I am requesting the permanent deletion of my K Chat account and associated personal data.
 
-KChat Account Email: ${email}
+K Chat Account Email: ${email}
 Reason for deletion: ${reason.trim() || "Not specified"}
 
 Please confirm once the account deletion has been processed.
@@ -64,10 +64,10 @@ Thank you.`;
             <span>Google Play Account Deletion Portal</span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy-900 tracking-tight">
-            Delete Your KChat Account
+            Delete Your K Chat Account
           </h1>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-            If you would like to request deletion of your KChat account and associated data, use the contact method below.
+            If you would like to request deletion of your K Chat account and associated data, use the contact method below.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ Thank you.`;
                 </h2>
                 <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
                   Your deletion request for the account{" "}
-                  <span className="font-semibold text-navy-900">{email}</span> has been formatted for KChat Support.
+                  <span className="font-semibold text-navy-900">{email}</span> has been formatted for K Chat Support.
                 </p>
               </div>
 
@@ -152,7 +152,7 @@ Thank you.`;
                   Submit an Account Deletion Request
                 </h2>
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  Enter your KChat account email. Submitting this form prepares a pre-filled deletion request directed to our official support contact (<span className="font-semibold text-navy-900">{siteConfig.supportEmail}</span>).
+                  Enter your K Chat account email. Submitting this form prepares a pre-filled deletion request directed to our official support contact (<span className="font-semibold text-navy-900">{siteConfig.supportEmail}</span>).
                 </p>
               </div>
 
@@ -162,7 +162,7 @@ Thank you.`;
                     htmlFor="account-email"
                     className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1"
                   >
-                    KChat account email <span className="text-rose-500">*</span>
+                    K Chat account email <span className="text-rose-500">*</span>
                   </label>
                   <input
                     id="account-email"
@@ -170,11 +170,11 @@ Thank you.`;
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Enter the email associated with your KChat account"
+                    placeholder="Enter the email associated with your K Chat account"
                     className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20"
                   />
                   <span className="text-[11px] text-slate-500 mt-1 block">
-                    This is your own Google account email used to sign into KChat.
+                    This is your own Google account email used to sign into K Chat.
                   </span>
                 </div>
 
@@ -202,7 +202,7 @@ Thank you.`;
                   Requests are verified and processed manually by the administrator in accordance with Google Play developer requirements.
                 </p>
                 <p>
-                  Official KChat Support Contact:{" "}
+                  Official K Chat Support Contact:{" "}
                   <code className="text-brand-700 font-mono bg-white px-1.5 py-0.5 rounded border border-slate-200 font-semibold">
                     {siteConfig.supportEmail}
                   </code>

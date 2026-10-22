@@ -37,7 +37,7 @@ export default function Navbar() {
           <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden shadow-sm border border-slate-200/60 group-hover:scale-105 transition-transform shrink-0">
             <Image
               src="/logo.png"
-              alt="KChat Official Logo"
+              alt="K Chat Official Logo"
               width={40}
               height={40}
               className="object-cover w-full h-full"
@@ -48,8 +48,8 @@ export default function Navbar() {
             <span className="font-bold text-xl sm:text-2xl text-navy-900 tracking-tight leading-none group-hover:text-brand-600 transition-colors">
               {siteConfig.name}
             </span>
-            <span className="text-[10px] sm:text-[11px] font-semibold text-slate-500 tracking-wider uppercase mt-0.5">
-              Intelligent Chat
+            <span className="text-[9px] sm:text-[10px] font-semibold text-slate-500 tracking-wide uppercase mt-0.5 whitespace-nowrap">
+              Make Messaging Smarter
             </span>
           </div>
         </Link>
@@ -82,6 +82,8 @@ export default function Navbar() {
         <div className="hidden md:flex items-center">
           <Link
             href={siteConfig.googlePlayUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-brand-600 active:bg-brand-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
           >
             <ArrowDownToLine className="w-4 h-4" />
@@ -132,6 +134,8 @@ export default function Navbar() {
           <div className="pt-3 border-t border-slate-100">
             <Link
               href={siteConfig.googlePlayUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={closeMobileMenu}
               className="flex items-center justify-center gap-2 w-full rounded-xl bg-navy-900 px-4 py-3 text-base font-semibold text-white shadow-sm hover:bg-brand-600 transition-colors"
             >

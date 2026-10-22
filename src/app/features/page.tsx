@@ -25,7 +25,7 @@ import {
 export const metadata: Metadata = {
   title: "Features — Everything You Need to Communicate",
   description:
-    "Explore KChat's complete feature suite: direct chats, group messaging, World Chat, voice & video calling, media sharing, and user-triggered AI tools.",
+    "Explore K Chat's complete feature suite: direct chats, group messaging, World Chat, voice & video calling, media sharing, and user-triggered AI tools.",
 };
 
 const featureList = [
@@ -61,10 +61,10 @@ const featureList = [
     category: "Community",
     icon: Globe2,
     description:
-      "A public global conversation hub where users can connect, exchange perspectives, and chat openly with fellow KChat members.",
+      "A public global conversation hub where users can connect, exchange perspectives, and chat openly with fellow K Chat members.",
     highlights: [
       "Global real-time public feed",
-      "Meet new people across the KChat ecosystem",
+      "Meet new people across the K Chat ecosystem",
       "Active moderation and community safety",
     ],
   },
@@ -139,7 +139,7 @@ const featureList = [
     category: "Productivity",
     icon: Bookmark,
     description:
-      "Your private cloud notebook inside KChat. Forward messages, save important links, or keep quick notes accessible anywhere.",
+      "Your private cloud notebook inside K Chat. Forward messages, save important links, or keep quick notes accessible anywhere.",
     highlights: [
       "Personal private bookmarking room",
       "Never lose crucial links, addresses, or instructions",
@@ -187,7 +187,7 @@ const featureList = [
   },
   {
     id: "ai-suite",
-    title: "KChat AI Intelligence Suite",
+    title: "K Chat AI Intelligence Suite",
     category: "AI",
     icon: Sparkles,
     description:
@@ -201,11 +201,11 @@ const featureList = [
   },
   {
     id: "extension",
-    title: "KChat Extension",
+    title: "K Chat Extension",
     category: "AI",
     icon: Layers,
     description:
-      "Bring KChat's AI suite to external apps. Paste messages or upload screenshots from any app to analyze and summarize.",
+      "Bring K Chat's AI suite to external apps. Paste messages or upload screenshots from any app to analyze and summarize.",
     highlights: [
       "Analyze external screenshots and text snippets",
       "100% user-supplied content, zero background snooping",
@@ -227,7 +227,7 @@ export default function FeaturesPage() {
           Everything You Need to Communicate
         </h1>
         <p className="text-base sm:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-          From voice and video calling to user-triggered AI summaries, KChat provides a dependable, transparent messaging experience.
+          From voice and video calling to user-triggered AI summaries, K Chat provides a dependable, transparent messaging experience.
         </p>
       </section>
 
@@ -330,7 +330,7 @@ export default function FeaturesPage() {
             Complete Feature Directory
           </h2>
           <p className="text-slate-600 text-sm sm:text-base">
-            Every feature listed here is an active part of the KChat platform.
+            Every feature listed here is an active part of the K Chat platform.
           </p>
         </div>
 
@@ -394,12 +394,14 @@ export default function FeaturesPage() {
               Ready to get started?
             </h2>
             <p className="text-slate-600 text-sm sm:text-base">
-              Download KChat on your Android device to experience fast, dependable messaging and helpful AI assistance.
+              Download K Chat on your Android device to experience fast, dependable messaging and helpful AI assistance.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href={siteConfig.googlePlayUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-6 py-3.5 text-base font-semibold text-white shadow-md hover:bg-brand-600 transition-colors"
             >
               <ArrowDownToLine className="w-5 h-5" />

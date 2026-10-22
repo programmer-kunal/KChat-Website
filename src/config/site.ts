@@ -6,17 +6,18 @@
  */
 
 export const siteConfig = {
-  name: "KChat",
-  tagline: "AI That Understands Your Conversations.",
+  name: "K Chat",
+  tagline: "Make Messaging Smarter.",
+  title: "K Chat: Make Messaging Smarter",
   description:
-    "KChat is an AI-powered intelligent real-time communication platform designed to make conversations smarter, more meaningful, and secure.",
+    "K Chat is an AI-powered intelligent real-time communication platform designed to make conversations smarter, more meaningful, and secure.",
   developerName: "KUNAL",
   copyrightYear: 2026,
 
   // Central contact & store settings
   supportEmail: "kunal.connect7@gmail.com",
   privacyEmail: "kunal.connect7@gmail.com",
-  googlePlayUrl: "#", // Replace with official Google Play Store URL when published
+  googlePlayUrl: "https://play.google.com/store/apps/details?id=com.kunal.kchat",
 
   // Third-party service documentation & privacy policies referenced in legal docs
   thirdPartyLinks: {
@@ -29,7 +30,7 @@ export const siteConfig = {
   navLinks: [
     { name: "Features", href: "/features" },
     { name: "AI", href: "/ai" },
-    { name: "Why KChat", href: "/#why-kchat" },
+    { name: "Why K Chat", href: "/#why-kchat" },
     { name: "Support", href: "/support" },
   ],
 
@@ -37,8 +38,8 @@ export const siteConfig = {
   footerLinks: {
     product: [
       { name: "Features", href: "/features" },
-      { name: "KChat AI", href: "/ai" },
-      { name: "KChat Extension", href: "/ai#extension" },
+      { name: "K Chat AI", href: "/ai" },
+      { name: "K Chat Extension", href: "/ai#extension" },
     ],
     legal: [
       { name: "Privacy Policy", href: "/privacy" },

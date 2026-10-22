@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="relative w-9 h-9 rounded-xl overflow-hidden shadow-sm border border-slate-100 group-hover:scale-105 transition-transform">
                 <Image
                   src="/logo.png"
-                  alt="KChat Logo"
+                  alt="K Chat Logo"
                   width={36}
                   height={36}
                   className="object-cover w-full h-full"
@@ -56,7 +56,7 @@ export default function Footer() {
                   href="/ai"
                   className="hover:text-brand-600 transition-colors focus:outline-none focus-visible:underline flex items-center gap-1.5"
                 >
-                  <span>KChat AI</span>
+                  <span>K Chat AI</span>
                   <span className="px-1.5 py-0.5 text-[10px] font-semibold bg-brand-50 text-brand-600 rounded">
                     USP
                   </span>
@@ -67,7 +67,7 @@ export default function Footer() {
                   href="/ai#extension"
                   className="hover:text-brand-600 transition-colors focus:outline-none focus-visible:underline"
                 >
-                  KChat Extension
+                  K Chat Extension
                 </Link>
               </li>
             </ul>

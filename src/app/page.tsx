@@ -64,6 +64,8 @@ export default function HomePage() {
               <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto">
                 <Link
                   href={siteConfig.googlePlayUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-navy-900 px-6 py-3.5 text-base font-semibold text-white shadow-lg shadow-navy-900/10 hover:bg-brand-600 active:bg-brand-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
                 >
                   <ArrowDownToLine className="w-5 h-5" />
@@ -92,9 +94,9 @@ export default function HomePage() {
                 {/* Primary phone showcase */}
                 <PhoneMockup
                   src="/images/ChattingScreen.jpg"
-                  alt="KChat Live Chat Interface"
+                  alt="K Chat Live Chat Interface"
                   priority
-                  caption="KChat Real-Time Chat & AI Actions"
+                  caption="K Chat Real-Time Chat & AI Actions"
                   maxWidthClassName="max-w-[280px] sm:max-w-[320px]"
                 />
 
@@ -132,7 +134,7 @@ export default function HomePage() {
                 Designed to make conversations smarter, more meaningful, and secure.
               </h2>
               <p className="text-slate-300 text-base sm:text-lg leading-relaxed pt-2">
-                Traditional messaging apps either distract with bloated feeds or stay completely passive. KChat introduces intentional intelligence: modern real-time messaging paired with AI tools that run only when you ask them to, giving you instant clarity without compromising privacy.
+                Traditional messaging apps either distract with bloated feeds or stay completely passive. K Chat introduces intentional intelligence: modern real-time messaging paired with AI tools that run only when you ask them to, giving you instant clarity without compromising privacy.
               </p>
             </div>
 
@@ -163,7 +165,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-lg font-semibold text-white">User-Controlled AI</h3>
                 <p className="text-sm text-slate-300 leading-relaxed">
-                  AI tools run when you choose to use them. KChat does not continuously scan conversations in the background for AI analysis.
+                  AI tools run when you choose to use them. K Chat does not continuously scan conversations in the background for AI analysis.
                 </p>
               </div>
             </div>
@@ -233,7 +235,7 @@ export default function HomePage() {
                 <div className="relative w-full max-w-[240px] rounded-2xl overflow-hidden shadow-md border border-slate-200">
                   <Image
                     src="/images/SmartReplyUI.jpg"
-                    alt="KChat Smart Reply Interface"
+                    alt="K Chat Smart Reply Interface"
                     width={400}
                     height={800}
                     className="w-full h-auto object-cover"
@@ -283,7 +285,7 @@ export default function HomePage() {
                 <div className="relative w-full max-w-[240px] rounded-2xl overflow-hidden shadow-md border border-slate-200">
                   <Image
                     src="/images/ThreadSummaryUI.jpg"
-                    alt="KChat Thread Summary Interface"
+                    alt="K Chat Thread Summary Interface"
                     width={400}
                     height={800}
                     className="w-full h-auto object-cover"
@@ -333,7 +335,7 @@ export default function HomePage() {
                 <div className="relative w-full max-w-[240px] rounded-2xl overflow-hidden shadow-md border border-slate-200">
                   <Image
                     src="/images/ContextSearchResultUI.jpg"
-                    alt="KChat Context Search Results Interface"
+                    alt="K Chat Context Search Results Interface"
                     width={400}
                     height={800}
                     className="w-full h-auto object-cover"
@@ -383,7 +385,7 @@ export default function HomePage() {
                 <div className="relative w-full max-w-[240px] rounded-2xl overflow-hidden shadow-md border border-slate-200">
                   <Image
                     src="/images/ScamGuardUI.jpg"
-                    alt="KChat Scam Guard Interface"
+                    alt="K Chat Scam Guard Interface"
                     width={400}
                     height={800}
                     className="w-full h-auto object-cover"
@@ -399,7 +401,7 @@ export default function HomePage() {
               href="/ai"
               className="inline-flex items-center gap-2 text-brand-600 font-semibold text-base hover:text-brand-700 hover:underline"
             >
-              <span>Explore full KChat AI details & architecture</span>
+              <span>Explore full K Chat AI details & architecture</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -417,7 +419,7 @@ export default function HomePage() {
               <div className="lg:col-span-7 space-y-6">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/20 text-brand-300 text-xs font-semibold uppercase tracking-wider">
                   <Layers className="w-3.5 h-3.5" />
-                  <span>KChat Extension</span>
+                  <span>K Chat Extension</span>
                 </div>
 
                 <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
@@ -425,7 +427,7 @@ export default function HomePage() {
                 </h2>
 
                 <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-                  KChat Extension lets you bring KChat&apos;s AI capabilities to messages and screenshots from other applications.
+                  K Chat Extension lets you bring K Chat&apos;s AI capabilities to messages and screenshots from other applications.
                 </p>
 
                 {/* What user can provide */}
@@ -477,7 +479,7 @@ export default function HomePage() {
                 {/* Explicit Transparency Notice */}
                 <div className="p-4 rounded-xl bg-slate-800/60 border border-slate-700 text-xs text-slate-300 leading-relaxed">
                   <strong className="text-white block mb-1">Important Transparency:</strong>
-                  KChat does not directly read other apps automatically. You maintain full control by explicitly pasting text or selecting screenshots to share with KChat Extension.
+                  K Chat does not directly read other apps automatically. You maintain full control by explicitly pasting text or selecting screenshots to share with K Chat Extension.
                 </div>
               </div>
 
@@ -486,8 +488,8 @@ export default function HomePage() {
                 <div className="relative w-full max-w-[280px] sm:max-w-[310px]">
                   <PhoneMockup
                     src="/images/KChatExtensionUI.jpg"
-                    alt="KChat Extension Interface"
-                    caption="KChat Extension: AI on external content"
+                    alt="K Chat Extension Interface"
+                    caption="K Chat Extension: AI on external content"
                   />
                 </div>
               </div>
@@ -546,7 +548,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-lg font-bold text-navy-900">World Chat</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Discover and connect with the broader KChat global public community in open discussions.
+                Discover and connect with the broader K Chat global public community in open discussions.
               </p>
             </div>
 
@@ -680,7 +682,7 @@ export default function HomePage() {
                 </h2>
 
                 <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
-                  KChat&apos;s AI features are user-triggered. KChat does not continuously scan conversations in the background for AI analysis.
+                  K Chat&apos;s AI features are user-triggered. K Chat does not continuously scan conversations in the background for AI analysis.
                 </p>
 
                 <p className="text-sm text-slate-600 leading-relaxed">
@@ -732,7 +734,7 @@ export default function HomePage() {
           <div className="rounded-3xl bg-navy-900 text-white p-8 sm:p-12 text-center space-y-6 shadow-xl relative overflow-hidden">
             <div className="max-w-2xl mx-auto space-y-3">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight">
-                Experience Smarter Conversations with KChat
+                Experience Smarter Conversations with K Chat
               </h2>
               <p className="text-slate-300 text-sm sm:text-base">
                 Download the official Android app and explore user-triggered intelligence designed for everyday communication.
@@ -742,6 +744,8 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
               <Link
                 href={siteConfig.googlePlayUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 text-base font-semibold text-navy-900 hover:bg-slate-100 transition-colors shadow-sm"
               >
                 <ArrowDownToLine className="w-5 h-5 text-brand-600" />

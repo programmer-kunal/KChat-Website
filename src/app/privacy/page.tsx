@@ -6,7 +6,7 @@ import { ShieldCheck, Mail, ExternalLink, ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Official Privacy Policy for KChat. Explains how information is collected, used, processed by user-triggered AI, and protected.",
+    "Official Privacy Policy for K Chat. Explains how information is collected, used, processed by user-triggered AI, and protected.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
       <div className="my-8 p-5 rounded-2xl bg-brand-50/70 border border-brand-200/80 text-sm text-slate-700 space-y-2">
         <strong className="text-navy-900 block font-bold">Important Privacy Highlights:</strong>
         <p className="text-xs sm:text-sm leading-relaxed">
-          KChat&apos;s AI features are <strong>strictly user-triggered</strong>. KChat does not continuously scan conversations in the background for AI analysis. Relevant content is processed only when you explicitly invoke an AI feature.
+          K Chat&apos;s AI features are <strong>strictly user-triggered</strong>. K Chat does not continuously scan conversations in the background for AI analysis. Relevant content is processed only when you explicitly invoke an AI feature.
         </p>
       </div>
 
@@ -41,17 +41,17 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">1. INTRODUCTION</h2>
           <p>
-            KChat (&ldquo;KChat&rdquo;, &ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is an AI-powered real-time communication application that provides direct messaging, group conversations, media sharing, voice and video calling, and AI-powered conversation features.
+            K Chat (&ldquo;K Chat&rdquo;, &ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is an AI-powered real-time communication application that provides direct messaging, group conversations, media sharing, voice and video calling, and AI-powered conversation features.
           </p>
           <p>
-            This Privacy Policy explains how KChat accesses, collects, uses, stores, and shares information when you use the KChat application.
+            This Privacy Policy explains how K Chat accesses, collects, uses, stores, and shares information when you use the K Chat application.
           </p>
         </section>
 
         {/* Section 2 */}
         <section className="space-y-4">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">2. INFORMATION WE COLLECT</h2>
-          <p>Depending on the features you use, KChat may process:</p>
+          <p>Depending on the features you use, K Chat may process:</p>
 
           <div className="space-y-3 pl-2 sm:pl-4 border-l-2 border-slate-200">
             <div>
@@ -127,7 +127,7 @@ export default function PrivacyPolicyPage() {
         {/* Section 3 */}
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">3. HOW WE USE INFORMATION</h2>
-          <p>KChat uses information to:</p>
+          <p>K Chat uses information to:</p>
           <ul className="list-disc pl-5 space-y-1 text-slate-600">
             <li>Provide authentication and login</li>
             <li>Provide real-time messaging</li>
@@ -148,19 +148,19 @@ export default function PrivacyPolicyPage() {
         {/* Section 4 */}
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">4. AI FEATURES</h2>
-          <p>KChat provides:</p>
+          <p>K Chat provides:</p>
           <ul className="list-disc pl-5 space-y-1 text-slate-600">
             <li>Smart Reply</li>
             <li>Thread Summary</li>
             <li>Context Search</li>
             <li>Scam Guard</li>
-            <li>KChat Extension</li>
+            <li>K Chat Extension</li>
           </ul>
           <p>
             AI features are user-triggered.
           </p>
           <p>
-            KChat does not continuously scan conversations in the background for AI analysis.
+            K Chat does not continuously scan conversations in the background for AI analysis.
           </p>
           <p>
             When an AI feature is explicitly used, relevant content selected or provided by the user may be processed to generate the requested result.
@@ -174,7 +174,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">5. AI SERVICE PROVIDER</h2>
           <p>
-            KChat uses Firebase AI Logic with Google&apos;s Gemini Developer API for AI-powered features.
+            K Chat uses Firebase AI Logic with Google&apos;s Gemini Developer API for AI-powered features.
           </p>
           <p>
             When an AI feature is used, relevant content and instructions required to generate the requested result may be transmitted through Firebase AI Logic to the selected Gemini service.
@@ -184,7 +184,7 @@ export default function PrivacyPolicyPage() {
         {/* Section 6 */}
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">6. THIRD-PARTY SERVICES</h2>
-          <p>KChat uses third-party services including:</p>
+          <p>K Chat uses third-party services including:</p>
           <div className="space-y-3 pl-2 sm:pl-4 border-l-2 border-slate-200 text-slate-600">
             <div>
               <strong className="text-navy-900 block">Google / Firebase:</strong>
@@ -209,13 +209,13 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">7. INFORMATION SHARING</h2>
           <p>
-            KChat does not sell personal information.
+            K Chat does not sell personal information.
           </p>
           <p>
             Information may be transmitted to service providers when necessary to provide requested functionality.
           </p>
           <p>
-            KChat may also disclose information when required by applicable law or legal process.
+            K Chat may also disclose information when required by applicable law or legal process.
           </p>
         </section>
 
@@ -231,7 +231,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">9. DATA SECURITY</h2>
           <p>
-            KChat uses reasonable technical and organizational measures designed to protect user information.
+            K Chat uses reasonable technical and organizational measures designed to protect user information.
           </p>
           <p>
             Data transmitted between the application and supported services is intended to use secure communication mechanisms such as HTTPS/TLS where supported.
@@ -245,10 +245,10 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">10. DATA RETENTION</h2>
           <p>
-            KChat retains information for as long as reasonably necessary to provide functionality and maintain accounts and communication history.
+            K Chat retains information for as long as reasonably necessary to provide functionality and maintain accounts and communication history.
           </p>
           <p>
-            AI results generated during an AI operation are designed to be temporary and are not intentionally stored as permanent KChat conversation messages unless the user separately chooses to save or send content through normal application functionality.
+            AI results generated during an AI operation are designed to be temporary and are not intentionally stored as permanent K Chat conversation messages unless the user separately chooses to save or send content through normal application functionality.
           </p>
         </section>
 
@@ -256,7 +256,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">11. ACCOUNT AND DATA DELETION</h2>
           <p>
-            Users may request deletion of their KChat account and associated personal information.
+            Users may request deletion of their K Chat account and associated personal information.
           </p>
           <p>
             Deletion requests may be subject to technical limitations, legal requirements, legitimate security requirements, and information that must be retained where required by law.
@@ -266,7 +266,7 @@ export default function PrivacyPolicyPage() {
             <Link href="/account-deletion" className="text-brand-600 font-semibold underline">
               Account Deletion page
             </Link>{" "}
-            or contact the privacy contact listed by KChat.
+            or contact the privacy contact listed by K Chat.
           </p>
         </section>
 
@@ -274,10 +274,10 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">12. CHILDREN&apos;S PRIVACY</h2>
           <p>
-            KChat is not specifically directed toward children.
+            K Chat is not specifically directed toward children.
           </p>
           <p>
-            KChat does not knowingly collect personal information from children in violation of applicable laws.
+            K Chat does not knowingly collect personal information from children in violation of applicable laws.
           </p>
         </section>
 
@@ -298,7 +298,7 @@ export default function PrivacyPolicyPage() {
             <li>Video calls</li>
           </ul>
           <p className="pt-2 text-slate-600">
-            KChat does not intentionally use the camera or microphone for continuous background recording.
+            K Chat does not intentionally use the camera or microphone for continuous background recording.
           </p>
         </section>
 
@@ -306,14 +306,14 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">14. FILE AND MEDIA ACCESS</h2>
           <p>
-            KChat accesses files and media when users voluntarily select or capture content for use within KChat.
+            K Chat accesses files and media when users voluntarily select or capture content for use within K Chat.
           </p>
         </section>
 
         {/* Section 15 */}
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">15. NOTIFICATIONS</h2>
-          <p>KChat may use push notifications for:</p>
+          <p>K Chat may use push notifications for:</p>
           <ul className="list-disc pl-5 space-y-1 text-slate-600">
             <li>New messages</li>
             <li>Media messages</li>
@@ -326,7 +326,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">16. CHANGES TO THIS PRIVACY POLICY</h2>
           <p>
-            KChat may update this Privacy Policy from time to time.
+            K Chat may update this Privacy Policy from time to time.
           </p>
           <p>
             The Last Updated date indicates the most recent update.
@@ -352,7 +352,7 @@ export default function PrivacyPolicyPage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">18. THIRD-PARTY PRIVACY POLICIES</h2>
           <p className="text-sm text-slate-600">
-            For more information regarding third-party service providers used by KChat, refer to their respective privacy statements:
+            For more information regarding third-party service providers used by K Chat, refer to their respective privacy statements:
           </p>
           <ul className="space-y-2 text-sm">
             <li>

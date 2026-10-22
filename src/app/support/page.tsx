@@ -17,7 +17,7 @@ import {
 export const metadata: Metadata = {
   title: "Support & Help Center",
   description:
-    "Find answers to frequently asked questions about KChat accounts, messaging, user-triggered AI tools, calling, and privacy.",
+    "Find answers to frequently asked questions about K Chat accounts, messaging, user-triggered AI tools, calling, and privacy.",
 };
 
 const faqCategories = [
@@ -27,17 +27,17 @@ const faqCategories = [
     icon: User,
     faqs: [
       {
-        question: "How do I sign in to KChat?",
+        question: "How do I sign in to K Chat?",
         answer:
-          "KChat uses Google Sign-In for streamlined and secure authentication. Simply tap 'Sign in with Google' on the welcome screen and select your verified Google Account.",
+          "K Chat uses Google Sign-In for streamlined and secure authentication. Simply tap 'Sign in with Google' on the welcome screen and select your verified Google Account.",
       },
       {
         question: "How can I customize my profile name, bio, and picture?",
         answer:
-          "Navigate to the Profile screen inside KChat. You can update your display name, edit your about/motto status, and upload a new profile picture.",
+          "Navigate to the Profile screen inside K Chat. You can update your display name, edit your about/motto status, and upload a new profile picture.",
       },
       {
-        question: "Can I use KChat on multiple devices?",
+        question: "Can I use K Chat on multiple devices?",
         answer:
           "You can log in to your Google Account on supported Android devices. Your conversations and profile synchronize in real time through Firebase.",
       },
@@ -49,9 +49,9 @@ const faqCategories = [
     icon: MessageSquare,
     faqs: [
       {
-        question: "How does real-time messaging work in KChat?",
+        question: "How does real-time messaging work in K Chat?",
         answer:
-          "KChat utilizes Firebase's real-time database to sync direct messages, replies, read receipts, and presence indicators immediately across devices.",
+          "K Chat utilizes Firebase's real-time database to sync direct messages, replies, read receipts, and presence indicators immediately across devices.",
       },
       {
         question: "How do I reply to a specific message?",
@@ -66,7 +66,7 @@ const faqCategories = [
       {
         question: "What is World Chat?",
         answer:
-          "World Chat is KChat's global community conversation room where members can meet and converse openly with users worldwide.",
+          "World Chat is K Chat's global community conversation room where members can meet and converse openly with users worldwide.",
       },
     ],
   },
@@ -78,7 +78,7 @@ const faqCategories = [
       {
         question: "How do I trigger Smart Reply?",
         answer:
-          "Smart Reply is completely user-triggered. In any chat, tap the AI menu and select Smart Reply. KChat analyzes the context of recent messages and provides natural reply options that you can edit before sending.",
+          "Smart Reply is completely user-triggered. In any chat, tap the AI menu and select Smart Reply. K Chat analyzes the context of recent messages and provides natural reply options that you can edit before sending.",
       },
       {
         question: "What does Thread Summary do?",
@@ -96,9 +96,9 @@ const faqCategories = [
           "Scam Guard analyzes selected messages for phishing URLs, impersonation tactics, and suspicious fraud patterns. Please note: Scam Guard is an assistance feature and does not guarantee detection or guarantee 100% protection.",
       },
       {
-        question: "How do I use KChat Extension with other apps?",
+        question: "How do I use K Chat Extension with other apps?",
         answer:
-          "Open KChat Extension to paste text or upload screenshots from external apps. You can run Smart Reply, Thread Summary, or Scam Guard on external content without KChat needing background access to other applications.",
+          "Open K Chat Extension to paste text or upload screenshots from external apps. You can run Smart Reply, Thread Summary, or Scam Guard on external content without K Chat needing background access to other applications.",
       },
     ],
   },
@@ -108,14 +108,14 @@ const faqCategories = [
     icon: PhoneCall,
     faqs: [
       {
-        question: "How are calls powered in KChat?",
+        question: "How are calls powered in K Chat?",
         answer:
           "Direct audio and video calling is powered by ZEGOCLOUD infrastructure, delivering low-latency streams and clear audio across network conditions.",
       },
       {
         question: "What permissions are needed for calling?",
         answer:
-          "KChat requests microphone access for audio calls and camera access for video calls. These permissions are only used while an active call is underway.",
+          "K Chat requests microphone access for audio calls and camera access for video calls. These permissions are only used while an active call is underway.",
       },
     ],
   },
@@ -125,19 +125,19 @@ const faqCategories = [
     icon: ShieldCheck,
     faqs: [
       {
-        question: "Does KChat continuously scan my conversations in the background?",
+        question: "Does K Chat continuously scan my conversations in the background?",
         answer:
-          "No. KChat's AI features are strictly user-triggered. KChat does not continuously scan conversations in the background for AI analysis. Relevant content is transmitted only when you explicitly invoke an AI tool.",
+          "No. K Chat's AI features are strictly user-triggered. K Chat does not continuously scan conversations in the background for AI analysis. Relevant content is transmitted only when you explicitly invoke an AI tool.",
       },
       {
-        question: "Which AI provider powers KChat?",
+        question: "Which AI provider powers K Chat?",
         answer:
-          "KChat uses Firebase AI Logic with Google's Gemini Developer API to execute user-requested AI tasks.",
+          "K Chat uses Firebase AI Logic with Google's Gemini Developer API to execute user-requested AI tasks.",
       },
       {
-        question: "Does KChat sell my personal data?",
+        question: "Does K Chat sell my personal data?",
         answer:
-          "No. KChat does not sell personal information to third parties or advertisers.",
+          "No. K Chat does not sell personal information to third parties or advertisers.",
       },
     ],
   },
@@ -147,7 +147,7 @@ const faqCategories = [
     icon: Trash2,
     faqs: [
       {
-        question: "How can I request deletion of my KChat account?",
+        question: "How can I request deletion of my K Chat account?",
         answer:
           "You can submit a deletion request anytime on our dedicated Account Deletion page or by emailing our privacy contact. Our team will verify and process your request manually.",
       },
@@ -170,7 +170,7 @@ export default function SupportPage() {
           <span>Help & Knowledge Base</span>
         </div>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy-900 tracking-tight">
-          KChat Support
+          K Chat Support
         </h1>
         <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
           Explore frequently asked questions regarding setup, messaging features, AI tools, voice & video calls, and account security.
@@ -222,7 +222,7 @@ export default function SupportPage() {
               Direct Assistance
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">
-              Contact KChat Support
+              Contact K Chat Support
             </h2>
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
               Have questions, feedback, or need manual assistance with your account? Reach out to our official support and privacy contact.

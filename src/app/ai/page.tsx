@@ -20,9 +20,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "KChat AI — Intelligence Built Into Your Conversations",
+  title: "K Chat AI — Intelligence Built Into Your Conversations",
   description:
-    "Discover KChat AI: user-triggered conversation tools including Smart Reply, Thread Summary, Context Search, Scam Guard, and KChat Extension.",
+    "Discover K Chat AI: user-triggered conversation tools including Smart Reply, Thread Summary, Context Search, Scam Guard, and K Chat Extension.",
 };
 
 export default function AIPage() {
@@ -38,7 +38,7 @@ export default function AIPage() {
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-navy-900 tracking-tight">
-          KChat AI
+          K Chat AI
         </h1>
 
         <p className="text-2xl sm:text-3xl font-bold text-brand-600 tracking-tight max-w-3xl mx-auto">
@@ -46,12 +46,14 @@ export default function AIPage() {
         </p>
 
         <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-          KChat equips you with purposeful, user-triggered AI tools designed to help you understand, respond to, and manage discussions faster without compromising your privacy.
+          K Chat equips you with purposeful, user-triggered AI tools designed to help you understand, respond to, and manage discussions faster without compromising your privacy.
         </p>
 
         <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
             href={siteConfig.googlePlayUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-6 py-3.5 text-base font-semibold text-white shadow-md hover:bg-brand-600 transition-colors"
           >
             <ArrowDownToLine className="w-5 h-5" />
@@ -78,7 +80,7 @@ export default function AIPage() {
               <PhoneMockup
                 src="/images/SmartReplyUI.jpg"
                 alt="Smart Reply Interface"
-                caption="KChat Smart Reply Suggestions"
+                caption="K Chat Smart Reply Suggestions"
               />
             </div>
 
@@ -98,7 +100,7 @@ export default function AIPage() {
               </p>
 
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                When responding on the go, finding the right words quickly matters. KChat analyzes the selected messages and crafts natural draft options that match the ongoing discussion style.
+                When responding on the go, finding the right words quickly matters. K Chat analyzes the selected messages and crafts natural draft options that match the ongoing discussion style.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
@@ -198,7 +200,7 @@ export default function AIPage() {
               <PhoneMockup
                 src="/images/ThreadSummaryUI.jpg"
                 alt="Thread Summary Screen"
-                caption="KChat Thread Summary in Action"
+                caption="K Chat Thread Summary in Action"
               />
             </div>
           </div>
@@ -320,7 +322,7 @@ export default function AIPage() {
               <PhoneMockup
                 src="/images/ScamGuardUI.jpg"
                 alt="Scam Guard Interface"
-                caption="KChat Scam Guard Risk Analysis"
+                caption="K Chat Scam Guard Risk Analysis"
               />
             </div>
           </div>
@@ -339,10 +341,10 @@ export default function AIPage() {
                 <span>Cross-App Utility</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-                KChat Extension: AI Beyond Your Chat
+                K Chat Extension: AI Beyond Your Chat
               </h2>
               <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-                KChat Extension lets you bring KChat&apos;s AI capabilities to messages and screenshots from other applications.
+                K Chat Extension lets you bring K Chat&apos;s AI capabilities to messages and screenshots from other applications.
               </p>
             </div>
 
@@ -392,22 +394,22 @@ export default function AIPage() {
             {/* Screenshots Gallery for Extension */}
             <div className="pt-6 space-y-4">
               <h3 className="text-sm font-semibold text-slate-300 uppercase tracking-wider text-center">
-                KChat Extension in Action
+                K Chat Extension in Action
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
                 <PhoneMockup
                   src="/images/KChatExtensionUI.jpg"
-                  alt="KChat Extension Home"
+                  alt="K Chat Extension Home"
                   caption="Extension Home & Input"
                 />
                 <PhoneMockup
                   src="/images/KChatExtensionSR.jpg"
-                  alt="KChat Extension Smart Reply"
+                  alt="K Chat Extension Smart Reply"
                   caption="Extension Smart Reply"
                 />
                 <PhoneMockup
                   src="/images/KChatExtensionTS.jpg"
-                  alt="KChat Extension Thread Summary"
+                  alt="K Chat Extension Thread Summary"
                   caption="Extension Thread Summary"
                 />
               </div>
@@ -418,7 +420,7 @@ export default function AIPage() {
               <EyeOff className="w-5 h-5 text-brand-400 shrink-0 mt-0.5" />
               <div>
                 <strong className="text-white block mb-0.5">Privacy Notice for Extension:</strong>
-                KChat Extension does not continuously monitor, hook into, or automatically read other apps on your device. The user explicitly initiates every action by pasting text or selecting screenshots.
+                K Chat Extension does not continuously monitor, hook into, or automatically read other apps on your device. The user explicitly initiates every action by pasting text or selecting screenshots.
               </div>
             </div>
           </div>
@@ -439,7 +441,7 @@ export default function AIPage() {
               Privacy-Conscious AI by Design
             </h2>
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-              We believe intelligent tools should respect user sovereignty. Here is exactly how KChat approaches data and artificial intelligence:
+              We believe intelligent tools should respect user sovereignty. Here is exactly how K Chat approaches data and artificial intelligence:
             </p>
           </div>
 
@@ -450,7 +452,7 @@ export default function AIPage() {
                 <span>Strictly User-Triggered</span>
               </h4>
               <p className="text-xs text-slate-600 leading-relaxed">
-                KChat does not continuously scan conversations in the background for AI analysis. Processing happens only when you explicitly select a feature.
+                K Chat does not continuously scan conversations in the background for AI analysis. Processing happens only when you explicitly select a feature.
               </p>
             </div>
 
@@ -460,7 +462,7 @@ export default function AIPage() {
                 <span>Firebase AI Logic Provider</span>
               </h4>
               <p className="text-xs text-slate-600 leading-relaxed">
-                KChat utilizes Firebase AI Logic with Google&apos;s Gemini Developer API. Selected content and instructions required for the request are transmitted securely over HTTPS/TLS.
+                K Chat utilizes Firebase AI Logic with Google&apos;s Gemini Developer API. Selected content and instructions required for the request are transmitted securely over HTTPS/TLS.
               </p>
             </div>
 
@@ -497,11 +499,13 @@ export default function AIPage() {
             Ready to experience intelligent conversations?
           </h2>
           <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto">
-            Download KChat today on Google Play and explore communication enhanced by user-controlled AI.
+            Download K Chat today on Google Play and explore communication enhanced by user-controlled AI.
           </p>
           <div className="pt-2">
             <Link
               href={siteConfig.googlePlayUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3.5 text-base font-semibold text-navy-900 hover:bg-slate-100 transition-colors shadow-sm"
             >
               <ArrowDownToLine className="w-5 h-5 text-brand-600" />

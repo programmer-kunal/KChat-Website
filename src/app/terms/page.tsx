@@ -6,7 +6,7 @@ import { FileText, ShieldAlert, Sparkles, Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Official Terms of Service for KChat. Understand the terms, acceptable use, AI content disclaimers, and service guidelines.",
+    "Official Terms of Service for K Chat. Understand the terms, acceptable use, AI content disclaimers, and service guidelines.",
 };
 
 export default function TermsOfServicePage() {
@@ -20,7 +20,7 @@ export default function TermsOfServicePage() {
           <span>Terms & Conditions</span>
         </div>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy-900 tracking-tight">
-          KChat Terms of Service
+          K Chat Terms of Service
         </h1>
         <p className="text-sm font-medium text-slate-500">
           Last Updated: 27 September 2026
@@ -56,7 +56,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">1. Acceptance of Terms</h2>
           <p>
-            By downloading, accessing, or using KChat, you agree to be bound by these Terms of Service. If you do not agree to these terms, do not install or use the KChat application.
+            By downloading, accessing, or using K Chat, you agree to be bound by these Terms of Service. If you do not agree to these terms, do not install or use the K Chat application.
           </p>
         </section>
 
@@ -64,7 +64,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">2. Account Responsibility</h2>
           <p>
-            To use KChat, you may authenticate through supported mechanisms such as Google Sign-In. You are responsible for maintaining the confidentiality of your credentials and account access. You agree to notify us immediately of any unauthorized use of your account.
+            To use K Chat, you may authenticate through supported mechanisms such as Google Sign-In. You are responsible for maintaining the confidentiality of your credentials and account access. You agree to notify us immediately of any unauthorized use of your account.
           </p>
         </section>
 
@@ -72,7 +72,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">3. User-Generated Content</h2>
           <p>
-            You retain ownership of the text messages, photos, videos, audio notes, and files you send through KChat. You grant KChat the technical license necessary to transmit, store, and display your content to your designated recipients to operate the service.
+            You retain ownership of the text messages, photos, videos, audio notes, and files you send through K Chat. You grant K Chat the technical license necessary to transmit, store, and display your content to your designated recipients to operate the service.
           </p>
           <p>
             You are solely responsible for all content you create, transmit, or share using the application.
@@ -83,7 +83,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">4. Acceptable Use</h2>
           <p>
-            KChat is intended for lawful personal and group communications. You agree to use KChat in compliance with all applicable local, national, and international laws, regulations, and these terms.
+            K Chat is intended for lawful personal and group communications. You agree to use K Chat in compliance with all applicable local, national, and international laws, regulations, and these terms.
           </p>
         </section>
 
@@ -95,7 +95,7 @@ export default function TermsOfServicePage() {
             <li>Harassing, threatening, stalking, or defaming other individuals;</li>
             <li>Distributing malware, viruses, phishing payloads, or malicious links;</li>
             <li>Sending unsolicited bulk commercial messages (spam);</li>
-            <li>Impersonating another person, organization, or KChat entity;</li>
+            <li>Impersonating another person, organization, or K Chat entity;</li>
             <li>Attempting to bypass security controls, reverse-engineer, or disrupt servers;</li>
             <li>Using automated bots or scrapers without express written authorization.</li>
           </ul>
@@ -105,7 +105,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">6. Messaging and Communication</h2>
           <p>
-            KChat provides direct messaging, group conversations, World Chat, and audio/video calling. Message delivery depends on active network conditions, third-party infrastructure (such as Google Firebase and ZEGOCLOUD), and recipient device availability.
+            K Chat provides direct messaging, group conversations, World Chat, and audio/video calling. Message delivery depends on active network conditions, third-party infrastructure (such as Google Firebase and ZEGOCLOUD), and recipient device availability.
           </p>
         </section>
 
@@ -113,7 +113,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">7. AI-Generated Content & Limitations</h2>
           <p>
-            KChat incorporates AI features including Smart Reply, Thread Summary, Context Search, Scam Guard, and KChat Extension.
+            K Chat incorporates AI features including Smart Reply, Thread Summary, Context Search, Scam Guard, and K Chat Extension.
           </p>
           <p>
             <strong>Important Notice:</strong> AI-generated outputs are informational and may contain errors, inaccuracies, or unexpected responses. AI suggestions do not replace human judgment. You are exclusively responsible for reviewing, editing, and verifying any AI-suggested text or action before relying on or sending it.
@@ -127,7 +127,7 @@ export default function TermsOfServicePage() {
             Scam Guard is an advisory feature provided to assist users in identifying common deception indicators in user-selected messages.
           </p>
           <p>
-            <strong>Limitation:</strong> Scam Guard does not guarantee that analyzed content is safe, nor does it guarantee the detection of all fraudulent, phishing, or malicious communication. KChat disclaims any liability arising from reliance on Scam Guard evaluations.
+            <strong>Limitation:</strong> Scam Guard does not guarantee that analyzed content is safe, nor does it guarantee the detection of all fraudulent, phishing, or malicious communication. K Chat disclaims any liability arising from reliance on Scam Guard evaluations.
           </p>
         </section>
 
@@ -135,7 +135,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">9. Third-Party Services</h2>
           <p>
-            KChat integrates with third-party service providers:
+            K Chat integrates with third-party service providers:
           </p>
           <ul className="list-disc pl-5 space-y-1 text-slate-600">
             <li><strong>Google / Firebase:</strong> Authentication, real-time database, cloud messaging, and AI logic;</li>
@@ -151,7 +151,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">10. Service Availability</h2>
           <p>
-            We strive for reliable service operations, but KChat is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis. We do not warrant that service operations will be uninterrupted, error-free, or entirely bug-free.
+            We strive for reliable service operations, but K Chat is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis. We do not warrant that service operations will be uninterrupted, error-free, or entirely bug-free.
           </p>
         </section>
 
@@ -159,7 +159,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">11. Intellectual Property</h2>
           <p>
-            The KChat name, brand logo, software code, design, and graphics are the intellectual property of {siteConfig.developerName} and KChat. You may not copy, reproduce, distribute, or create derivative works without prior written consent.
+            The K Chat name, brand logo, software code, design, and graphics are the intellectual property of {siteConfig.developerName} and K Chat. You may not copy, reproduce, distribute, or create derivative works without prior written consent.
           </p>
         </section>
 
@@ -194,7 +194,7 @@ export default function TermsOfServicePage() {
         <section className="space-y-3">
           <h2 className="text-xl sm:text-2xl font-bold text-navy-900">15. Limitation of Liability</h2>
           <p>
-            To the maximum extent permitted by applicable law, KChat and its developers shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data, loss of profits, or service interruptions arising out of or related to your use of or inability to use KChat.
+            To the maximum extent permitted by applicable law, K Chat and its developers shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data, loss of profits, or service interruptions arising out of or related to your use of or inability to use K Chat.
           </p>
         </section>
 
